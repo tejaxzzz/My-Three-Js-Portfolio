@@ -720,12 +720,7 @@ a {
   }
 }
 
-@media (max-width: 480px) {
-  .tech-grid {
-    grid-template-columns: repeat(3, 1fr); /* Force 3 items per row */
-    max-width: 100%;
-    gap: 20px; /* Optional: reduce spacing for small screens */
-}
+
 
 .tech-stack-section {
   /* background-color: #f9f7f7; */
