@@ -715,10 +715,17 @@ a {
 @media (max-width: 480px) {
   .tech-grid {
     grid-template-columns: repeat(3, 1fr);
+     max-width: 100%;
+    gap: 20px; /* Optional: reduce spacing for small screens */
   }
 }
 
-
+@media (max-width: 480px) {
+  .tech-grid {
+    grid-template-columns: repeat(3, 1fr); /* Force 3 items per row */
+    max-width: 100%;
+    gap: 20px; /* Optional: reduce spacing for small screens */
+}
 
 .tech-stack-section {
   /* background-color: #f9f7f7; */
@@ -778,6 +785,9 @@ a {
   text-align: center;
   margin-top: -1rem;
   margin-bottom: 1rem;
+  width: 100%;
+  overflow: hidden; /* Prevent image from overflowing */
+  padding: 0 1rem; /* Optional: Adds side space for safety */
 }
 
 .about-photo {
