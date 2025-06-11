@@ -134,13 +134,13 @@ a {
   .contact-button-wrapper {
     flex-wrap: nowrap;
     justify-content: space-between;
-    gap: 24px;
+    gap: 20px;
     padding: 0 16px;
   }
 
   .contact-button-wrapper .icon {
-    width: 60px;
-    height: 60px;
+    width: auto;
+    height: auto;
     padding: 12px;
     font-size: 22px;
   }
@@ -155,7 +155,7 @@ a {
   list-style: none;
   margin-top: 32px;
   padding: 0; /* ensure no unwanted space */
-   gap: 75px;
+   gap: 60px;
 }
 
 
