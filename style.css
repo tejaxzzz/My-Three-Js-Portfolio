@@ -132,22 +132,19 @@ a {
 
 @media (max-width: 480px) {
   .contact-button-wrapper {
-    gap: 30px; /* Reduce the space between icons */
-    flex-wrap: wrap; /* Allow wrapping if needed */
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 16px;
   }
 
   .contact-button-wrapper .icon {
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-    font-size: 24px;
-  }
-
-  .contact-button-wrapper .tooltip {
-    font-size: 12px;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    font-size: 22px;
   }
 }
-
 
 
 .contact-button-wrapper {
