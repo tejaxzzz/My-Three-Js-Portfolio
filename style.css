@@ -129,6 +129,27 @@ a {
 }
 
 /* -------------- Contacts Button -------------- */
+
+@media (max-width: 480px) {
+  .contact-button-wrapper {
+    gap: 30px; /* Reduce the space between icons */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+  }
+
+  .contact-button-wrapper .icon {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .contact-button-wrapper .tooltip {
+    font-size: 12px;
+  }
+}
+
+
+
 .contact-button-wrapper {
   z-index: 1000;
   display: flex; /* changed from inline-flex */
