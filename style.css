@@ -710,11 +710,13 @@ a {
 
 
 
-
 @media (max-width: 480px) {
   .tech-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr)); /* force 3 equal columns */
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0 10px;
   }
 
   .tech-item img {
