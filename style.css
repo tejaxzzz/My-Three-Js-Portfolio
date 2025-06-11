@@ -129,36 +129,12 @@ a {
 }
 
 /* -------------- Contacts Button -------------- */
-
-@media (max-width: 480px) {
-  .contact-button-wrapper {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 0 16px;
-    /* h */
-  }
-
-  .contact-button-wrapper .icon {
-    width: auto;
-    height: auto;
-    padding: 12px;
-    font-size: 22px;
-  }
-}
-
-
+/* -------------- Contacts Button -------------- */
 .contact-button-wrapper {
-  z-index: 1000;
-  display: flex; /* changed from inline-flex */
-  justify-content: center; /* centers the icons horizontally */
-  align-items: center; /* optional: centers vertically if needed */
+  display: inline-flex;
   list-style: none;
   margin-top: 32px;
-  padding: 0; /* ensure no unwanted space */
-   gap: 60px;
 }
-
 
 .contact-button-wrapper .icon {
   position: relative;
@@ -168,7 +144,7 @@ a {
   margin: 10px;
   width: 80px;
   height: 80px;
-  font-size: 31px;
+  font-size: 33px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,7 +224,6 @@ a {
   background: #ea4335;
   color: #ffffff;
 }
-
 /* -------------- Loading Circle -------------- */
 .hidden {
   display: none;
@@ -388,8 +363,8 @@ a {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  top: 48px;
-  right: 48px;
+  top: 13px;
+  right: 13px;
   z-index: 999999999;
 }
 
@@ -814,7 +789,8 @@ a {
   height: auto;
   border-radius: 16px;
   object-fit: cover;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+ box-shadow: 0 8px 28px rgba(80, 120, 100, 0.3), 0 4px 12px rgba(0, 0, 0, 0.15);
+
 }
 
 
