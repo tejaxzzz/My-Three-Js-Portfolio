@@ -711,14 +711,22 @@ a {
 
 
 
-/* Force 3 columns on mobile */
 @media (max-width: 480px) {
   .tech-grid {
-    grid-template-columns: repeat(3, 1fr);
-     max-width: 100%;
-    gap: 20px; /* Optional: reduce spacing for small screens */
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* force 3 equal columns */
+    gap: 16px;
+  }
+
+  .tech-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tech-item span {
+    font-size: 0.8rem;
   }
 }
+
 
 
 
@@ -778,22 +786,19 @@ a {
 
 .about-photo-wrapper {
   text-align: center;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
+  padding: 0 1rem;
   width: 100%;
-  overflow: hidden; /* Prevent image from overflowing */
-  padding: 0 1rem; /* Optional: Adds side space for safety */
+  overflow: hidden;
 }
 
+
 .about-photo {
-  width: auto;
-  max-width: 550px;       
+  width: 100%;
+  max-width: 100%;
   height: auto;
- 
-  border-radius: 16px;     
+  border-radius: 16px;
   object-fit: cover;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  image-rendering: auto;   
 }
 
 
