@@ -364,7 +364,7 @@ a {
   align-items: center;
   opacity: 0;
   top: 13px;
-  right: 13px;
+  left: 13px;
   z-index: 999999999;
 }
 
